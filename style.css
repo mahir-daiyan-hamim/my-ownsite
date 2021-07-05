@@ -5,20 +5,23 @@ body{margin: 0;
     h1 {font-weight:900;
         font-size: 60px;
         font-family: 'Zen Loop', cursive;
+        padding: 10%;
     }
     .myname{color: orange; 
         font-family: 'Zen Loop', cursive;}
-    h3{ font-family: 'Zen Loop', cursive;
+    .heading{ font-family: 'Zen Loop', cursive;
         font-size:40px;
         font font-weight:200;}
-        p{color: black;
+    .paragraph{color: black;
         font-size: 22px;}
-    section{ display: flex;
+    .section{ display: flex;
+        margin-bottom: 150px;
         background-image: url(images/top-banner.png);
         background-repeat: no-repeat;
+
     }
-    div{width: 60%;
-        padding-left: 3%;
+    .geass{width: 60%;
+        padding: 3%;
     padding-top: 0;} 
     .img  {height: %;
         width:%;
@@ -33,4 +36,12 @@ body{margin: 0;
         background-image: linear-gradient(rgb(136, 253, 195),rgb(169, 240, 240));
         color: rgb(8, 77, 2);
     font-weight: 700;}
-    
+    .img2 {padding: 20px; 
+        height: 30px; width: 30px; }
+        .section2{display: flex;
+            margin-bottom: 150px;
+            background-image: url(images/top-banner.png);
+            background-image: url(images/dream-bg.png);
+            background-repeat: no-repeat;
+        background-position:right ;}
+            
